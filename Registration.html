@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="AppRegistration.css">
+    <script defer src="student.js"></script>
+    <script defer src="validation.js"></script>
+
+  </head>
+  <body>
+    <div class="container" id="main">
+      <table>
+        <td>
+          <tr>
+            <h1 class="heading">Registration</h1>
+          </tr>
+        </td>
+        <td>
+                <tr><div class="text">First Name :</div></tr>
+                <input type="text" placeholder="First Name (ex : Geetesh)" class="input" id="firstName">
+            
+        </td>
+        <br>
+        <td >
+            <tr><div class="text">Last Name :</div></tr>
+            <input type="text" placeholder="Last Name (ex : Kumbalkar)" class="input" id="lastName">
+        </td>
+        <br>
+        <td >
+            <tr><div class="text">Subject :</div></tr>
+            <input type="text" placeholder="Subject(ex : Math,Science...)" class="input" id="subject">
+        </td>
+        <br>
+        <td >
+            <tr><div class="text">Mobile Number :</div></tr>
+            <input type="text" placeholder="Mobile no(ex : 7447376717)" class="input" id="mobileNumber">
+        </td>
+        <br>
+        <td >
+            <tr><div class="text">Password :</div></tr>
+            <input type="text" placeholder="Password(ex : Student@11)" class="input" id="password">
+        </td>
+        <br>
+        <td >
+            <input type="submit" value="Submit" class="btn" onclick="registration()">
+        </td>
+     </table>
+     <br>
+     <a href="index.html" class="login">Login</a>
+    
+    </div>
+  </body>
+</html>
