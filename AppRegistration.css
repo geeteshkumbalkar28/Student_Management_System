@@ -11,7 +11,7 @@ body{
     background: linear-gradient(to right top, rgba(130, 41, 130, 0.067), #010f4a, #a40000, #d714f1, #2cbb10);
     font-family: Arial, sans-serif;
     background-size: 300% 300%;
-    animation: gradientAnimation 1s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
      min-height: 100vh;
     display: flex;
     justify-content: center;

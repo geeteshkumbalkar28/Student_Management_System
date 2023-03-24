@@ -75,17 +75,19 @@ body{
     
     /* border: 2px solid black; */
 }
+
 .btn:hover{
     background-color: #dbcd34;
     font-size: 25px;
     font-weight: bold;
 }
 .login{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     font-size: 18px;
-
-    margin-left: 151px;
-
+    background: rgba(245, 222, 179, 0.206) ;
+    margin-left: 16%;
+    padding-left: 26%;
+    padding-right: 30%;
     color: rgb(235, 229, 63);
 }
 

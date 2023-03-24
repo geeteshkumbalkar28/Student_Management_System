@@ -89,7 +89,7 @@ function registration(){
     var register=false;
     if(checkCondition != null)
     {
-        let listOfStudent =JSON.parse(a);
+        let listOfStudent =JSON.parse(checkCondition);
         listOfStudent.push(std);
         localStorage.setItem('listOfStudent',JSON.stringify(listOfStudent));
          register =confirm("do you want to add the data ?") 
@@ -103,6 +103,7 @@ function registration(){
        
     }
     console.log("105");
+    alert("Registration successfully");
     if(register) window.location.assign("Registration.html");
 
 }
