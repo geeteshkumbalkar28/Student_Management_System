@@ -88,14 +88,35 @@ body{
     margin-left: 16%;
     padding-left: 26%;
     padding-right: 30%;
+    padding-top: 3px;
+    padding-bottom: 3px;
     color: rgb(235, 229, 63);
+    border-radius: 20px;
+}
+.Re-Registration{
+    border: 2px solid black;
+    font-size: 18px;
+    background: rgba(245, 222, 179, 0.206);
+    margin-left: 16%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 19%;
+    padding-right: 15%;
+    color: rgb(235, 229, 63);
+    border-radius: 20px;
 }
 
-.login:hover{
+.login:hover {
     font-weight: bold;
     color: black;
+    background: #88e7ae;
 }
+.Re-Registration:hover{
+    font-weight: bold;
+    color: black;
+    background: #c8f157;
 
+}
 
 .input:hover{
     font-weight: bold;

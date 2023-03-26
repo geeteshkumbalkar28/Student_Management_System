@@ -7,14 +7,14 @@
     <title>Login</title>
     <link rel="stylesheet" href="App.css">
     
-    <script defer src="validation.js"></script>
+    <script defer src="forget.js"></script>
   </head>
   <body>
     <div class="container" id="main">
       <table>
         <td>
           <tr>
-            <h1 class="heading">Login</h1>
+            <h1 class="heading" style="font-size: 18px;">Forget Password by using Username that is firstName and last Name</h1>
           </tr>
         </td>
         <td>
@@ -24,19 +24,24 @@
         </td>
         <br>
         <td >
-          <tr><div class="text">Password :</div></tr>
-          <input type="password" placeholder="Password" class="input" id="password">
+          <tr><div class="text">lastName :</div></tr>
+          <input type="text" placeholder="LastName" class="input" id="lastName">
         </td>
+        <td >
+            <tr><div class="text">New Password :</div></tr>
+            <input type="password" placeholder="password" class="input" id="password">
+          </td>
+          <br>
         <br>
         <td >
-          <input type="submit" value="Login" class="btn" onclick="submit()">
+          <input type="submit" value="Submit" class="btn" onclick="forgetPass()">
         </td>
       </table>
       <br>
    
       
-      <a href="Registration.html" class="createacc" >Create Account</a>
-      <a href="ForgetPass.html" class="forgetacc">Forget Password</a>
+      <a href="index.html" class="createacc" >Login Page</a>
+      <!-- <a href="ForgetPass.html" class="forgetacc">Forget Password</a> -->
     </div>
   </body>
   </html>
